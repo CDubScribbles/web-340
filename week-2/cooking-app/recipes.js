@@ -1,23 +1,25 @@
-/**
- * Author:
- * Date:
- * File Name:
- * Description:
+/*
+  Pragmatic Node.js
+  Chapter 2
+  Programming Assignment
+
+  Author: Clifford Smith
+  Date: 4/4/26
+  Filename: recipes.js
 */
 
-// Define the createRecipe function
+"use strict";
+
 function createRecipe(ingredients) {
-  // TODO: Implement this function
+  return "Recipe created with ingredients: " + ingredients.join(", ");
 }
 
-// Define the setTimer function
 function setTimer(minutes) {
-  // TODO: Implement this function
+  return "Timer set for " + minutes + " minutes";
 }
 
-// Define the quit function
 function quit() {
-  // TODO: Implement this function
+  return "Program exited";
 }
 
-// TODO: Export the functions
+module.exports = { createRecipe, setTimer, quit };
