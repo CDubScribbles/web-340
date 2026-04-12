@@ -1,0 +1,12 @@
+{
+  "name": "distance-calculator",
+  "version": "1.0.0",
+  "description": "Interplanetary distance calculator using TDD",
+  "main": "src/distance-calculator.js",
+  "scripts": {
+    "test": "node test/distance-calculator.spec.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

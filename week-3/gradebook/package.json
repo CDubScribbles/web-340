@@ -1,0 +1,13 @@
+{
+  "name": "gradebook",
+  "version": "1.0.0",
+  "description": "A gradebook application using TDD",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node test/grader.spec.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
