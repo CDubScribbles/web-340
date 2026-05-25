@@ -1,0 +1,9 @@
+[
+  {
+    "id": 1,
+    "title": "The Dragon's Lair",
+    "class": "Warrior",
+    "difficulty": "Hard",
+    "completed": false
+  }
+]
